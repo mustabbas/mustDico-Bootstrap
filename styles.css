@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .nav-item {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -23,7 +23,7 @@
 }
 
 .AboutLng li {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -41,12 +41,12 @@ button.btn {
 .contact {
   background-image: url("./img/contact-left.svg"), url("./img/contact-middle.svg"), url("./img/contact-right.svg");
   background-repeat: no-repeat;
-  background-position: left, 276px, right;
-  height: 900px;
+  background-position: left bottom, 276px, right bottom;
+  height: 600px;
 }
 
 .contact-p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
