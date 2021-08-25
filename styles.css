@@ -1,13 +1,17 @@
-
 .nav-item {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
 }
 
 .Heading {
-    background-image: url('./img/HeaderDesktop.svg');
+  background-image: url("./img/HeaderDesktop.svg");
+}
+
+a.btn {
+  background-color: #36b37f;
+  color: white;
 }
