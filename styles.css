@@ -17,10 +17,9 @@
 }
 
 .about {
-  background-image: url("./img/AboutLeft.svg") ,url("./img/AboutRight.svg");
+  background-image: url("./img/AboutLeft.svg"), url("./img/AboutRight.svg");
   background-repeat: no-repeat;
-  background-position: left , right;
-
+  background-position: left, right;
 }
 
 .AboutLng li {
@@ -29,11 +28,28 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  color: #36B37E;
-  background-color:#fff;
+  color: #36b37e;
+  background-color: #fff;
 }
 
-a.btn {
+a.btn,
+button.btn {
   background-color: #36b37f;
   color: white;
+}
+
+.contact {
+  background-image: url("./img/contact-left.svg"), url("./img/contact-middle.svg"), url("./img/contact-right.svg");
+  background-repeat: no-repeat;
+  background-position: left, 276px, right;
+  height: 900px;
+}
+
+.contact-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172b4d;
 }
