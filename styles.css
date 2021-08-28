@@ -21,10 +21,117 @@ button.btn {
   transform: scale(1.1);
 }
 
-.navbar-nav {
-  position: absolute;
-  z-index: 100;
-  right: 12px;
+.navbar-brand {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+}
+
+.Heading {
+  background-image: url("./img/HeaderMobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.heading-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.heading-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.works-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.works-green-bar {
+  width: 12.8%;
+  height: 4px;
+  background: #36b37e;
+  border-radius: 24px;
+  margin: auto;
+}
+
+.about-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
+.AboutLng li {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #36b37e;
+  background-color: #fff;
+}
+
+.contact-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about {
+  background-image: url("./img/AboutLeftMobile.svg"), url("./img/AboutRightMobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+}
+
+.form-button {
+  text-align: center;
+}
+
+.contact {
+  background-image: url("./img/contact-right-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  min-height: 600px;
+}
+
+.footer-mail {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
 }
 
 @media screen and (min-width: 992px) {
@@ -35,22 +142,6 @@ button.btn {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
-  }
-
-  .about {
-    background-image: url("./img/AboutLeft.svg"), url("./img/AboutRight.svg");
-    background-repeat: no-repeat;
-    background-position: bottom left, top right;
-  }
-
-  .AboutLng li {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    color: #36b37e;
-    background-color: #fff;
   }
 
   .contact {
@@ -90,14 +181,6 @@ button.btn {
     color: #172b4d;
   }
 
-  .navbar-brand {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    color: #28352f;
-  }
   .header {
     position: fixed;
     top: 16px;
@@ -113,5 +196,18 @@ button.btn {
 
   .navbar-nav {
     right: auto;
+  }
+
+  .works-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .form-button {
+    text-align: left;
   }
 }
