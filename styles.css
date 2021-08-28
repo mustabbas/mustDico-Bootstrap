@@ -14,12 +14,14 @@
 
 .Heading {
   background-image: url("./img/HeaderDesktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .about {
   background-image: url("./img/AboutLeft.svg"), url("./img/AboutRight.svg");
   background-repeat: no-repeat;
-  background-position: left, right;
+  background-position: bottom left, top right;
 }
 
 .AboutLng li {
@@ -41,7 +43,7 @@ button.btn {
 .contact {
   background-image: url("./img/contact-left.svg"), url("./img/contact-middle.svg"), url("./img/contact-right.svg");
   background-repeat: no-repeat;
-  background-position: left bottom, 276px, right bottom;
+  background-position: left bottom, 274px 400px, right bottom;
   height: 600px;
 }
 
@@ -52,4 +54,37 @@ button.btn {
   font-size: 30px;
   line-height: 52px;
   color: #172b4d;
+}
+
+.card {
+  height: 100%;
+}
+
+.heading-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.37px;
+  color: #172b4d;
+}
+
+.heading-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.social-icons > li {
+  transition: transform 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.social-icons > li:hover {
+  transform: scale(1.1);
 }
