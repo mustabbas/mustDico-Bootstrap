@@ -89,7 +89,7 @@ button.btn {
   color: #42526e;
 }
 
-.AboutLng li {
+.AboutLng span {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -132,6 +132,16 @@ button.btn {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
+}
+
+.works-lng span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
 }
 
 @media screen and (min-width: 992px) {
@@ -213,5 +223,14 @@ button.btn {
 
   .form-button {
     text-align: left;
+  }
+
+  .card-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #172b4d;
   }
 }
