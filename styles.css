@@ -157,11 +157,6 @@ button.btn {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  flex-basis: 60%;
-}
-
-.modal-btn {
-  margin-left: 12px;
 }
 
 .modal-p {
@@ -261,5 +256,25 @@ button.btn {
     font-size: 24px;
     line-height: 32px;
     color: #172b4d;
+  }
+
+  .modal-body > ul,
+  .modal-body > .modal-p {
+    order: 1;
+  }
+
+  .modal-title {
+    flex-basis: 60%;
+  }
+
+  .modal-buttons {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-btn + .modal-btn {
+    margin-left: 12px;
   }
 }
