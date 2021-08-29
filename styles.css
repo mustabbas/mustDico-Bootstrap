@@ -11,7 +11,7 @@ a.btn,
 button.btn {
   background-color: #36b37f;
   color: white;
-  height: fit-content;
+  height: min-content;
 }
 
 .social-icons > li {
@@ -23,7 +23,7 @@ button.btn {
 }
 
 .navbar-brand {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -38,7 +38,7 @@ button.btn {
 }
 
 .heading-title {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -47,7 +47,7 @@ button.btn {
 }
 
 .heading-p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -56,7 +56,7 @@ button.btn {
 }
 
 .works-title {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -73,7 +73,7 @@ button.btn {
 }
 
 .about-title {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -82,7 +82,7 @@ button.btn {
 }
 
 .about-p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -101,7 +101,7 @@ button.btn {
 }
 
 .contact-p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -127,7 +127,7 @@ button.btn {
 }
 
 .footer-mail {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -136,7 +136,7 @@ button.btn {
 }
 
 .works-lng span {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -151,7 +151,7 @@ button.btn {
 
 .modal-title {
   margin-right: auto;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -160,7 +160,7 @@ button.btn {
 }
 
 .modal-p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -199,7 +199,7 @@ button.btn {
   }
 
   .heading-title {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -210,7 +210,7 @@ button.btn {
   }
 
   .heading-p {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -237,7 +237,7 @@ button.btn {
   }
 
   .works-title {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -250,7 +250,7 @@ button.btn {
   }
 
   .card-title {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
