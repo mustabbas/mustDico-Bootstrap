@@ -11,6 +11,7 @@ a.btn,
 button.btn {
   background-color: #36b37f;
   color: white;
+  height: fit-content;
 }
 
 .social-icons > li {
@@ -142,6 +143,34 @@ button.btn {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #172b4d;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-title {
+  margin-right: auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex-basis: 60%;
+}
+
+.modal-btn {
+  margin-left: 12px;
+}
+
+.modal-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
 }
 
 @media screen and (min-width: 992px) {
